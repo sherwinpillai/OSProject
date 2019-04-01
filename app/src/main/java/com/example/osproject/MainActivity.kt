@@ -19,9 +19,7 @@ class MainActivity : AppCompatActivity() {
             }//fhdgfydbfasbfja
             //hjafknsjj
 
-            override fun onStartTrackingTouch(seekBar: SeekBar?) {
-
-            }
+            override fun onStartTrackingTouch(seekBar: SeekBar?) = Unit
 
             override fun onStopTrackingTouch(seekBar: SeekBar?) {
 
