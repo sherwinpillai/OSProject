@@ -22,7 +22,10 @@ class MainActivity : AppCompatActivity() {
 
 
             selectedFoodTxt.text = foodList[randomFood]
-            //mhhuhu
+            /*
+            mhhuhu
+            jkk
+            */
         }
 
         addFoodBtn.setOnClickListener {
