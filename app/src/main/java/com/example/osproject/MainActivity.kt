@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             // HI
 
             val randomFood = random.nextInt(foodList.count())
+            //hello
             selectedFoodTxt.text = foodList[randomFood]
         }
 
