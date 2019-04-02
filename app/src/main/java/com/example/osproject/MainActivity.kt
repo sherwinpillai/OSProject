@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
 
             selectedFoodTxt.text = foodList[randomFood]
+            //mhhuhu
         }
 
         addFoodBtn.setOnClickListener {
