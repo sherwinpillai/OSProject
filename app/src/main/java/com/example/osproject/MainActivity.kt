@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         decideBtn.setOnClickListener {
             val random = Random()
+            // HI
+
             val randomFood = random.nextInt(foodList.count())
             selectedFoodTxt.text = foodList[randomFood]
         }
